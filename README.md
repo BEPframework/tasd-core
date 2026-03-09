@@ -2,7 +2,10 @@
 
 **Official Python implementation of the Ψ_universe attractor and the Toroidal-Attractor Signal Dynamics (TASD) framework.**
 
-This library provides the clean, modular core mathematics behind ultra-precise state stabilization using the original Ψ_universe equation.
+This library delivers the clean, modular core mathematics behind ultra-precise state stabilization using the original Ψ_universe equation.
+
+### What is TASD?
+TASD is a compact attractor-based filter that improves state separation in high-dimensional, nonstationary signals. It projects input features into a dissipative oscillatory space, applies controlled turbulence, reduces dimensionality via PCA, and produces a numerically stable output suitable for plasma control, physiological signal processing, and other precision-critical applications.
 
 ### ✨ Key Features
 - Full Ψ_universe attractor equation with dissipative oscillatory dynamics
@@ -14,6 +17,8 @@ This library provides the clean, modular core mathematics behind ultra-precise s
 - Numerically stable attractor behavior for research and simulations
 
 ### 🚀 Quick Start
+Copy `tasd.py` into your project (or add it to your Python path) and start using it immediately.
+
 ```python
 from tasd import TASD
 import numpy as np
@@ -29,12 +34,3 @@ output = tasd.evolve(X, t=5.0)
 
 print("Output shape:", output.shape)
 print("Stabilized range:", output.min(), "—", output.max())
-
-Patent Pending
-This library implements the TASD framework and Ψ_universe attractor from US Provisional Patent Application filed January 12, 2026 by Nicolas B. Quiroz, MD.
-
-License
-Apache License 2.0 — see the LICENSE file for details.
-
-Citation
-Quiroz, N. B. (2026). TASD Core v1.0 [Software]. Zenodo. https://doi.org/10.5281/zenodo.18928047
