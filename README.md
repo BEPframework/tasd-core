@@ -30,11 +30,11 @@ output = tasd.evolve(X, t=5.0)
 print("Output shape:", output.shape)
 print("Stabilized range:", output.min(), "—", output.max())
 
-Patent Pending
-This library implements the TASD framework and Ψ_universe attractor from US Provisional Patent Application filed January 12, 2026 by Nicolas B. Quiroz, MD.
+# Patent Pending
+**This library implements the TASD framework and Ψ_universe attractor from US Provisional Patent Application filed January 12, 2026 by Nicolas B. Quiroz, MD.**
 
-License
-Apache License 2.0 — see the LICENSE file for details.
+# License
+**Apache License 2.0 — see the LICENSE file for details.**
 
-Citation
-Quiroz, N. B. (2026). TASD Core v1.0 [Software]. Zenodo. https://doi.org/10.5281/zenodo.18928047
+# Citation
+**Quiroz, N. B. (2026). TASD Core v1.0 [Software]. Zenodo. https://doi.org/10.5281/zenodo.18928047**
