@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/26102933/README.md)
 # TASD Core Framework v1.0
 
 **Toroidal-Attractor Signal Dynamics — Capstone Framework**
@@ -23,7 +22,7 @@ No external dependencies beyond Python standard library and NumPy.
 
 ### Related Repositories
 
-- [psi-universe-attractor](https://github.com/BEPframework/psi-universe-attractor) — Ψ_universe attractor filter, validated on real EAST #41195 data
+- [psi-universe-attractor](https://github.com/BEPframework/psi-universe-attractor) — Ψ_universe attractor filter (exploratory; tested on one EAST discharge)
 - [tasd-framework](https://github.com/BEPframework/tasd-framework) — TASD Unified Framework (open-source release)
 - [toroidal-dynamics-toolkit](https://github.com/BEPframework/toroidal-dynamics-toolkit) — Modular toolkit for dynamic toroidal modulation in frequency-domain signal processing
 - [q216d-tokamak-simulation](https://github.com/BEPframework/q216d-tokamak-simulation) — Interactive 3D plasma visualization with TASD-enhanced control
